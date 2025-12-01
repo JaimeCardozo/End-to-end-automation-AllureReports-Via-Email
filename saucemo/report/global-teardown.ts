@@ -29,7 +29,7 @@ export default async () => {
   } catch (readError) {
     console.log('No se encontró un archivo de error. Asumiendo ejecución exitosa.');
   }
-  const reportUrl = 'https://jaimecardozo.github.io/ProyectoPlaywright/#';
+  const reportUrl = 'https://jaimecardozo.github.io/End-to-end-automation-AllureReports-Via-Email/';
 
   try {
     console.log('Generando y sirviendo el reporte de Allure...');

@@ -91,6 +91,7 @@ test.describe('Flujos Carrito de compra', () => {
         await gotoPage(pageSauce);
         await loginSuccess(pageSauce);
         await choicesProduct(pageSauce);
+        await pageSauce.pause();
     });
 
     
